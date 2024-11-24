@@ -1,0 +1,20 @@
+
+#input{
+    display:inline-block;
+    border-style:solid;
+    border-width:2px;
+    padding: 10px;
+    margin: 50px;
+}
+#results{
+    float: right;
+    border-style:solid;
+    border-width:2px;
+    padding: 10px;
+    margin: 50px
+
+}
+#help{
+    width:9px;
+    height:9px;
+}

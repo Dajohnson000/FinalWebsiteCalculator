@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Student Loan Calculator</h1>
+        <div id="input">
+            <form>
+                <label for="lamount">Loan Amount<a href="https://studentaid.gov">
+                    <img id="help" src="help.png" alt="Clickable Image">
+                </a></label><br>
+                <input type="text" id="lamount" name="lamount"><br><br>
+                <label for="irate">Interest Rate<a href="https://studentaid.gov/help-center/answers/article/what-interest-rate-will-i-pay-on-federal-loans">
+                    <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
+                <input type="text" id="irate" name="irate"><br><br>
+                <p>Does your interest capitalize?<a href="https://studentaid.gov/help-center/answers/article/what-is-loan-capitalized-interest#:~:text=When%20interest%20capitalizes%2C%20the%20unpaid,capitalizes%20only%20under%20certain%20conditions.">
+                    <img id="help" src="help.png" alt="Clickable Image"></a></p>
+                <input type="checkbox" id="capitalize" name="capitalize" value="Capitalize">
+                <label for="capitalize"> Yes </label><br>
+                <input type="checkbox" id="capitalize" name="capitalize" value="Capitalize">
+                <label for="capitalize"> No </label><br><br>
+                <label for="lterm">Loan Term<a href="https://www.sofi.com/learn/content/average-payoff-time-for-student-loans/#:~:text=According%20to%20the%20Education%20Data,of%20repayment%20plan%20and%20interest.">
+                    <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
+                <input type="text" id="lterm" name="lterm"><br><br>
+                <input type="submit" value="Submit">  
+              </form>
+        </div>
+        <div id="results">
+            <p id="repayment">Repayment=</p>
+            <p id="interest"> Total interest=</p>
+            <p id="payments">Total Payments=</p>
+        </div>
+        <div id="login">
+
+        </div>
+    </body>
+</html>
