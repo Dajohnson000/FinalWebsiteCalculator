@@ -7,30 +7,26 @@
         <h1>Student Loan Calculator</h1>
         <div id="input">
             <form>
-                <label for="lamount">Loan Amount<a href="https://studentaid.gov" target="_blank">
+                <h3><u>Your Loan Information</u></h3>
+                <label for="lamount">Loan Amount<a href="https://studentaid.gov" target="blank">
                     <img id="help" src="help.png" alt="Clickable Image">
                 </a></label><br>
                 <input type="text" id="lamount" name="lamount"><br><br>
-                <label for="irate">Interest Rate<a href="https://studentaid.gov/help-center/answers/article/what-interest-rate-will-i-pay-on-federal-loans" target="_blank">
+                <label for="irate">Interest Rate (In Percent)<a href="https://studentaid.gov/help-center/answers/article/what-interest-rate-will-i-pay-on-federal-loans" target="blank">
                     <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
-                <input type="text" id="irate" name="irate"><br><br>
-                <p>Does your interest capitalize?<a href="https://studentaid.gov/help-center/answers/article/what-is-loan-capitalized-interest#:~:text=When%20interest%20capitalizes%2C%20the%20unpaid,capitalizes%20only%20under%20certain%20conditions." target="_blank">
-                    <img id="help" src="help.png" alt="Clickable Image"></a></p>
-                <input type="radio" id="capitalize" name="capitalize" value="Capitalize">
-                <label for="capitalize"> Yes </label><br>
-                <input type="radio" id="capitalize" name="capitalize" value="Capitalize">
-                <label for="capitalize"> No </label><br><br>
-                <label for="lterm">Loan Term<a href="https://www.sofi.com/learn/content/average-payoff-time-for-student-loans/#:~:text=According%20to%20the%20Education%20Data,of%20repayment%20plan%20and%20interest." target="_blank">
+                <input type="text" id="irate" name="irate"><br>
+                <label for="lterm">Loan Term (In Months)<a href="https://www.sofi.com/learn/content/average-payoff-time-for-student-loans/#:~:text=According%20to%20the%20Education%20Data,of%20repayment%20plan%20and%20interest." target="blank">
                     <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
                 <input type="text" id="lterm" name="lterm"><br><br>
-                <input type="submit" value="Calculate">  
+                <input type="submit" value="Calculate" id="Calculate">  
               </form>
         </div>
         <div id="results">
-            <h3>Your Payment</h3>
-            <p id="repayment">Repayment=</p>
-            <p id="interest"> Total interest=</p>
-            <p id="payments">Total Payments=</p>
+            <h3><u>Your Payment</u></h3>
+            <p id="repayment">Monthly Repayment =</p>
+            <p id="payments">Total Payments =</p>
+            <p id="lamount">Original Loan Amount =</p>
+            <p id="interest">Total Interest =</p>
         </div>
         <div id="popup">
             <h3>Login</h3>
@@ -39,7 +35,7 @@
                 <input type="text" id="username" name="username"><br><br>
                 <label for="password">Password</label><br>
                 <input type="text" id="password" name="password"><br><br>
-                <input type="submit" value="Login">  
+                <input type="submit" value="Login" id="submit">  
             </form>
         </div>
     </body>

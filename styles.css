@@ -1,8 +1,9 @@
 html {
   background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-  margin: 100px;
+  margin: 10px 100px;
 }
 
 #input {
@@ -10,22 +11,52 @@ body {
   border-style: solid;
   border-width: 2px;
   padding: 10px;
-  margin: 50px;
+  margin: 0px;
   box-shadow: 1px 2px;
+  width: 30%;
+  font-size:1.5vw;
 }
 #results {
-  float: middle;
+  float: right;
   border-style: solid;
   border-width: 2px;
   padding: 10px;
   margin: 50px;
   box-shadow: 1px 2px;
+  width: 40%;
+  font-size:1.5vw;
 }
 #help {
-  width: 9px;
-  height: 9px;
+  width: 12px;
+  height: 12px;
 }
 #popup {
-  margin: 50px;
-  visibility: hidden;
+  margin: 10px 0px;
+  visibility: visible;
+  border-style: solid;
+  width: 30%;
+  display: inline-block;
+  box-shadow: 1px 2px;
+  border-width: 2px;
+  padding: 10px;
+}
+u{
+  text-decoration-color: blue;
+}
+ #Calculate{
+  background-color: green;
+  color: white;  
+  width: 125px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 12px;
+}
+#submit{
+  background-color: green;
+  color: white;  
+  width: 63px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 12px;
+  font-size: 1vw;
 }
