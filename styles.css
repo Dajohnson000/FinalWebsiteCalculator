@@ -18,10 +18,11 @@ header{
   border-width: 2px;
   padding: 10px;
   margin: 0px;
-  box-shadow: 1px 2px;
+  box-shadow: 2px 2px;
   width: 30%;
   font-size:1.5vw;
   border-radius: 12px;
+  background-color: lightgrey;
 }
 #results {
   float: right;
@@ -29,10 +30,11 @@ header{
   border-width: 2px;
   padding: 10px;
   margin: 0px 50px;
-  box-shadow: 1px 2px;
+  box-shadow: 2px 2px;
   width: 40%;
   font-size:1.5vw;
   border-radius: 12px;
+  background-color: lightgrey;
 }
 #help {
   width: 12px;
@@ -44,10 +46,11 @@ header{
   border-style: solid;
   width: 30%;
   display: inline-block;
-  box-shadow: 1px 2px;
+  box-shadow: 2px 2px;
   border-width: 2px;
   padding: 10px;
   border-radius: 12px;
+  background-color: lightgrey;
 }
 u{
   text-decoration-color: blue;
@@ -68,4 +71,7 @@ u{
   font-size: 12px;
   border-radius: 12px;
   font-size: 1vw;
+}
+input{
+  box-shadow: 2px 2px;
 }
