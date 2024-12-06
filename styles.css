@@ -5,7 +5,13 @@ html {
 body {
   margin: 10px 100px;
 }
-
+header{
+  background-color: green;
+  color: white;
+  padding: 20px;
+  width: 93.7%;
+  margin: 10px 0px;
+}
 #input {
   display: inline-block;
   border-style: solid;
@@ -15,16 +21,18 @@ body {
   box-shadow: 1px 2px;
   width: 30%;
   font-size:1.5vw;
+  border-radius: 12px;
 }
 #results {
   float: right;
   border-style: solid;
   border-width: 2px;
   padding: 10px;
-  margin: 50px;
+  margin: 0px 50px;
   box-shadow: 1px 2px;
   width: 40%;
   font-size:1.5vw;
+  border-radius: 12px;
 }
 #help {
   width: 12px;
@@ -39,6 +47,7 @@ body {
   box-shadow: 1px 2px;
   border-width: 2px;
   padding: 10px;
+  border-radius: 12px;
 }
 u{
   text-decoration-color: blue;
