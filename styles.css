@@ -1,3 +1,10 @@
+html { 
+    background-color: lightgrey; 
+}
+body { 
+    border-left-color:50px; 
+    background-color: cyan; 
+}
 
 #input{
     display:inline-block;
