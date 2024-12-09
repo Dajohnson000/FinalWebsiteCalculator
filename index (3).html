@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles (3).css">
+        <script src="test11.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    </head>
+    <body>
+        <h1>Student Loan Calculator</h1>
+        <div id="input">
+            <form>
+                <h3><u>Your Loan Information</u></h3>
+                <label for="lamount">Loan Amount<a href="https://studentaid.gov" target="blank">
+                    <img id="help" src="help.png" alt="Clickable Image">
+                </a></label><br>
+                <input type="text" id="lamount" name="lamount"><br><br>
+                <label for="irate">Interest Rate (In Percent)<a href="https://studentaid.gov/help-center/answers/article/what-interest-rate-will-i-pay-on-federal-loans" target="blank">
+                    <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
+                <input type="text" id="irate" name="irate"><br>
+                <label for="lterm">Loan Term (In Months)<a href="https://www.sofi.com/learn/content/average-payoff-time-for-student-loans/#:~:text=According%20to%20the%20Education%20Data,of%20repayment%20plan%20and%20interest." target="blank">
+                    <img id="help" src="help.png" alt="Clickable Image"></a></label><br>
+                <input type="text" id="lterm" name="lterm"><br><br>
+                <input type="submit" value="Calculate" id="Calculate">  
+              </form>
+        </div>
+        <div id="results">
+            <h3><u>Your Payment</u></h3>
+            <p id="repayment">Monthly Repayment = </p>
+            <p id="payments">Total Payments = </p>
+            <p id="lamountout">Original Loan Amount = </p>
+            <p id="interest">Total Interest = </p>
+        </div>
+        <div id="popup">
+            <h3>Login</h3>
+            <form id="login">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" name="password"><br><br>
+                <input type="submit" value="Login" id="submit">  
+            </form>
+        </div>
+        <div id="chart-container">
+            <canvas id="paymentChart" width="400" height="200"></canvas>
+        </div>
+
+    </body>
+</html>
