@@ -1,0 +1,58 @@
+html {
+  background-color: white;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+body {
+  margin: 10px 100px;
+}
+header {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  margin: 10px 0px;
+}
+#input {
+  display: inline-block;
+  border: 2px solid;
+  padding: 10px;
+  margin: 0;
+  box-shadow: 2px 2px;
+  width: 30%;
+  font-size: 1.5vw;
+  border-radius: 12px;
+  background-color: lightgrey;
+}
+#results {
+  float: right;
+  border: 2px solid;
+  padding: 10px;
+  margin: 0px 50px;
+  box-shadow: 2px 2px;
+  width: 40%;
+  font-size:1.5vw;
+  border-radius: 12px;
+  background-color: lightgrey;
+}
+#help {
+  width: 12px;
+  height: 12px;
+}
+#Calculate {
+  background-color: green;
+  color: white;  
+  width: 125px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 12px;
+}
+input {
+  box-shadow: 2px 2px;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
